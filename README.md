@@ -42,6 +42,4 @@ Ensure you have the following tools installed:
 
 ### Installation
 
-1. **Clone the repository**:
-   ```bash
-   
+1. **
