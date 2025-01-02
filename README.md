@@ -38,4 +38,3 @@ Ensure you have the following tools installed:
 - **MySQL Server**
 - **Maven** (optional, for dependency management)
 
----
