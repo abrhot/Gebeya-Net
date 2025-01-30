@@ -36,5 +36,4 @@ Ensure you have the following tools installed:
 - **Java Development Kit (JDK)** 8 or later
 - **Apache Tomcat** 9.x or later
 - **MySQL Server**
-- **Maven** (optional, for dependency management)
-
+- **Ma
