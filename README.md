@@ -24,16 +24,3 @@ GebyaNet is a user-friendly e-commerce platform designed to provide seamless sho
 
 - **Responsive Design**:
   - Optimized for both desktop and mobile users.
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-Ensure you have the following tools installed:
-
-- **Java Development Kit (JDK)** 8 or later
-- **Apache Tomcat** 9.x or later
-- **MySQL Server**
-- **Ma
