@@ -22,5 +22,4 @@ GebyaNet is a user-friendly e-commerce platform designed to provide seamless sho
   - Place orders.
   - View order history.
 
-- **Responsive Design**:
-  - Optimized for both desktop and mobile users.
+  
