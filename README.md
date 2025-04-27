@@ -15,7 +15,6 @@ GebyaNet is a user-friendly e-commerce platform designed to provide seamless sho
 
 - **Shopping Cart**:
   - Add items to the cart.
-  - View, update, and remove cart items.
-  - Calculate total costs dynamically.
+  - View, update, and remove
 
 - 
