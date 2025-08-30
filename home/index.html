@@ -1,164 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewpoint" content="width=device-width, initial-scale=1.">
-	<title>Gebeya Net</title>
-	<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gebeya Net - Your One-Stop Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-		<header>
-			<nav>
-			 <div class="logo">Gebeya Net</div><br><br>
-			 <ul class="nav-links">
-			 	<li><a href="#">Home</a></li>
-	            <li><a href="#">Products</a></li>
-	            <li><a href="#">Cart</a></li>
-	            <li><a href="#">Contact</a></li>
-	         </ul>
-	        </nav>
-	    </header>
 
-	 <main>
-	 	<div class="daily-updates">
-  <p>🔥 Today's Special Offer: Get 20% OFF on all products! Use code: <strong>DAILY20</strong></p>
-</div>
+    <header class="main-header">
+        <nav class="navbar">
+            <div class="nav-content">
+                <a href="index.html" class="nav-brand">Gebeya Net</a>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="nav-link active">Home</a></li>
+                    <li><a href="#" class="nav-link">Products</a></li>
+                    <li><a href="cart.html" class="nav-link">Cart</a></li>
+                    <li><a href="login.html" class="nav-link">Login</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
-<div class="product-container">
-  <div class="product">Product 1</div>
-  <div class="product">Product 2</div>
-  <div class="product">Product 3</div>
-  <div class="product">Product 4</div>
-  <div class="product">Product 5</div>
-  <div class="product">Product 6</div>
-  <div class="product">Product 7</div>
-  <div class="product">Product 8</div>
-  <div class="product">Product 9</div>
-  <div class="product">Product 10</div>
-  <div class="product">Product 11</div>
-  <div class="product">Product 12</div>
-</div>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Welcome to Gebeya Net</h1>
+                <p>Discover amazing deals on the best products. Your one-stop shop for quality and style.</p>
+                <a href="#" class="btn btn-primary">Shop Now</a>
+            </div>
+        </section>
 
-<div class="daily-updates" id="daily-updates">
-  <p>
-    🔥 Today's Special Offer: Get 20% OFF on all products! Use code: <strong>DAILY20</strong>
-    <button onclick="dismissUpdates()">✖</button>
-  </p>
-</div>
+        <div class="daily-updates" id="daily-updates">
+            <p>🔥 Today's Special: Get <strong>20% OFF</strong> on all products! Use code: <strong>DAILY20</strong></p>
+            <button onclick="document.getElementById('daily-updates').style.display='none'">&times;</button>
+        </div>
 
-	        <section class="hero">
-	            <h1>Welcome to Gebeya Net </h1>
-	            <p>Your one-stop shop for amazing products!</p>
-	        </section>
-	        <div class="product-grid">
-	        <div class="product-grid">
-    <!-- Product 1 -->
-    <div class="product-card">
-        <img src="https://via.placeholder.com/300x250" alt="Product 1">
-        <div class="info">
-            <h2>Product 1</h2>
-            <p>High-quality product with excellent features.</p>
-            <p class="price">$19.99</p>
-            <a href="#" class="add-to-cart">Add to Cart</a>
-        </div>
-    </div>
-    <!-- Product 2 -->
-    <div class="product-card">
-        <img src="https://via.placeholder.com/300x250" alt="Product 2">
-        <div class="info">
-            <h2>Product 2</h2>
-            <p>Another amazing product for everyday use.</p>
-            <p class="price">$29.99</p>
-            <a href="#" class="add-to-cart">Add to Cart</a>
-        </div>
-    </div>
-    <!-- Product 3 -->
-    <div class="product-card">
-        <img src="https://via.placeholder.com/300x250" alt="Product 3">
-        <div class="info">
-            <h2>Product 3</h2>
-            <p>Stylish and modern design for you.</p>
-            <p class="price">$39.99</p>
-            <a href="#" class="add-to-cart">Add to Cart</a>
-        </div>
-    </div>
-    <!-- Product 4 -->
-    <div class="product-card">
-        <img src="https://via.placeholder.com/300x250" alt="Product 4">
-        <div class="info">
-            <h2>Product 4</h2>
-            <p>Perfect choice for gifting or personal use.</p>
-            <p class="price">$49.99</p>
-            <a href="#" class="add-to-cart">Add to Cart</a>
-        </div>
-    </div>
-    <!-- Product 5 -->
-    <div class="product-card">
-        <img src="https://via.placeholder.com/300x250" alt="Product 5">
-        <div class="info">
-            <h2>Product 5</h2>
-            <p>Top-notch product with superior quality.</p>
-            <p class="price">$59.99</p>
-            <a href="#" class="add-to-cart">Add to Cart</a>
-        </div>
-    </div>
-    <!-- Product 6 -->
-    <div class="product-card">
-        <img src="https://via.placeholder.com/300x250" alt="Product 6">
-        <div class="info">
-            <h2>Product 6</h2>
-            <p>Exceptional product at an affordable price.</p>
-            <p class="price">$69.99</p>
-            <a href="#" class="add-to-cart">Add to Cart</a>
-        </div>
-    </div>
-    <!-- Product 7 -->
-    <div class="product-card">
-        <img src="https://via.placeholder.com/300x250" alt="Product 7">
-        <div class="info">
-            <h2>Product 7</h2>
-            <p>Durable and reliable product for all needs.</p>
-            <p class="price">$79.99</p>
-            <a href="#" class="add-to-cart">Add to Cart</a>
-        </div>
-    </div>
-    <!-- Product 8 -->
-    <div class="product-card">
-        <img src="https://via.placeholder.com/300x250" alt="Product 8">
-        <div class="info">
-            <h2>Product 8</h2>
-            <p>Beautiful design and exceptional value.</p>
-            <p class="price">$89.99</p>
-            <a href="#" class="add-to-cart">Add to Cart</a>
-        </div>
-    </div>
-    <!-- Product 9 -->
-    <div class="product-card">
-        <img src="https://via.placeholder.com/300x250" alt="Product 9">
-        <div class="info">
-            <h2>Product 9</h2>
-            <p>High-performance product for daily tasks.</p>
-            <p class="price">$99.99</p>
-            <a href="#" class="add-to-cart">Add to Cart</a>
-        </div>
-    </div>
-    <!-- Product 10 -->
-    <div class="product-card">
-        <img src="https://via.placeholder.com/300x250" alt="Product 10">
-        <div class="info">
-            <h2>Product 10</h2>
-            <p>Best-selling product with rave reviews.</p>
-            <p class="price">$109.99</p>
-            <a href="#" class="add-to-cart">Add to Cart</a>
-        </div>
-    </div>
-   
-           
-	        
-	</main>
+        <section class="products-section">
+            <h2 class="section-title">Featured Products</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300x250" alt="Product 1">
+                    <div class="info">
+                        <h3>Premium T-Shirt</h3>
+                        <p>High-quality cotton fabric.</p>
+                        <p class="price">$19.99</p>
+                        <a href="#" class="btn add-to-cart">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300x250" alt="Product 2">
+                    <div class="info">
+                        <h3>Stylish Sneakers</h3>
+                        <p>Comfortable and modern design.</p>
+                        <p class="price">$79.99</p>
+                        <a href="#" class="btn add-to-cart">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300x250" alt="Product 3">
+                    <div class="info">
+                        <h3>Classic Watch</h3>
+                        <p>Elegant and timeless.</p>
+                        <p class="price">$129.99</p>
+                        <a href="#" class="btn add-to-cart">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300x250" alt="Product 4">
+                    <div class="info">
+                        <h3>Leather Wallet</h3>
+                        <p>Durable and sleek.</p>
+                        <p class="price">$49.99</p>
+                        <a href="#" class="btn add-to-cart">Add to Cart</a>
+                    </div>
+                </div>
+                 </div>
+        </section>
+    </main>
 
-	<footer>
-	    <p>&copy; 2024 MyShop. All rights reserved.</p>
-	</footer>
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Gebeya Net</h3>
+                <p>Your one-stop shop for all things stylish and trendy.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <p>Subscribe for updates and exclusive deals.</p>
+                <input type="email" placeholder="Enter your email">
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Gebeya Net. All rights reserved.</p>
+        </div>
+    </footer>
+
 </body>
 </html>
