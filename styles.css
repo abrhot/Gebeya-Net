@@ -1,4 +1,14 @@
+/* --- General & Variables --- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
+:root {
+    --primary-color: #000;
+    --secondary-color: #28a745;
+    --background-color: #f8f8f8;
+    --text-color: #333;
+    --white-color: #fff;
+    --border-color: #ddd;
+}
 
 * {
     margin: 0;
